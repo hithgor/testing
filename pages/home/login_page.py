@@ -3,6 +3,9 @@ from pages.home.navigation_page import NavigationPage
 import logging
 from base.basepage import BasePage
 
+"""Class keeping methods for testing login page"""
+
+
 class LoginPage(BasePage):
 
     log = cl.customLogger(logging.DEBUG)

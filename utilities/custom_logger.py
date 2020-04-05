@@ -1,6 +1,8 @@
 import inspect
 import logging
 
+"""function containing desired logger definition - saves given logs in automation.log file"""
+
 def customLogger(logLevel=logging.DEBUG):
     # Gets the name of the class / method from where this method is called
     loggerName = inspect.stack()[1][3]

@@ -6,6 +6,8 @@ from ddt import ddt, data, unpack
 from utilities.read_data import getCSVData
 import time
 
+"""example test case checking for certain message after giving wrong card details trying to buy the course"""
+
 @pytest.mark.usefixtures("oneTimeSetUp", "setUp")
 @ddt
 class RegisterCoursesCSVDataTests(unittest.TestCase):

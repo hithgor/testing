@@ -2,6 +2,8 @@ import utilities.custom_logger as cl
 import logging
 from base.basepage import BasePage
 
+"""class containing reusable methods regarding navigation page testing"""
+
 class NavigationPage(BasePage):
 
     log = cl.customLogger(logging.DEBUG)

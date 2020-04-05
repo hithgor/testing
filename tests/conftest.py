@@ -6,6 +6,8 @@ import pytest
 from base.webdriverfactory import WebDriverFactory
 from pages.home.login_page import LoginPage
 
+"""basic pytest configuration options accessible from cli"""
+
 @pytest.yield_fixture()
 #@pytest.fixture()
 def setUp():

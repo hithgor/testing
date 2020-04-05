@@ -17,7 +17,7 @@ import unittest
 import pytest
 import time
 
-
+"""an example selenium test scenario for basic website elements"""
 
 class TestElementsPractice(unittest.TestCase):
 

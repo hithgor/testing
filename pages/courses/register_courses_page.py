@@ -6,6 +6,8 @@ import utilities.custom_logger as cl
 import logging
 from base.basepage import BasePage
 
+"""Class containing methods regarding courses page testing"""
+
 class RegisterCoursesPage(BasePage):
 
     log = cl.customLogger(logging.DEBUG)
